@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "monserrat", sans-serif;
+    background-color: rgb(100, 80, 100);
+    color: #230123;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10cm;
+    margin: 50px;
+}
+.title {
+    background-color: rgb(190, 173, 151);
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 100rem;
+    /* border: 100;
+    border-left: 100rem; */
+}
+.container {
+    padding: 30px 40px;
+    border-radius: 1rem;
+    border: 3px solid rgb(190, 173, 151);
+    margin: 10px;
+    background-color: rgb(83, 54, 83);
+    border-width: 3px;
+    width: 900px;
+}
+h1{
+    letter-spacing: 2px;
+    margin: 0;
+    margin: 10px 0 10px;
+    text-transform: uppercase;
+}
+
+h3 {
+    border-bottom: 1px solid rgb(190, 173, 151);
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #230123;
+    font-size: larger;
+}
+
+h4 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #230123;
+}
+
+/* #balance {
+    color: bisque;
+} */
+.income-expense {
+    background-color: rgb(190, 173, 151);
+    display: block;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 5px 6px rgb(100, 80, 100), 0 5px 6px rgb(83, 54, 83);
+}
+.income-expense > div {
+    flex: 1;
+    text-align: center;
+}
+.income,
+.expense,
+#balance {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+    font-weight: lighter;
+}
+
+.income {
+    color: rgb(18, 59, 18);
+}
+.expense {
+    color: rgb(124, 49, 49);
+}
+#balance {
+    color: rgb(58, 25, 112);
+}
+.bg-light{
+    background-color: rgb(100, 80, 100);
+    padding: 2px;
+    border-radius: 1rem;
+    display: inline-flexbox;
+    margin: 0 2px;
+}
+input[type="text"],
+input[type="number"] {
+    border: 1px solid rgb(155, 53, 186);
+    border-radius: 1rem;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    font-size: small;
+    outline: none;
+    box-shadow: 1px 2px 1px #b05eb0;
+}
+label {
+    display: flex;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: large;
+}
+.btn{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 8px;
+    border-radius: 1rem;
+    outline: none;
+    background-color: rgb(190, 173, 151);
+    color: rgb(28, 3, 28);
+    letter-spacing: 3px;
+    font-size: 12px;
+    border-color: #caa6ca;
+}
+.btn:hover {
+    color: rgb(206, 198, 206);
+    background-color: rgb(100, 80, 100);
+}
+.delete-btn {
+    background-color: rgb(100, 80, 100);
+    border-radius: 1rem;
+    outline: none;
+    float: right;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+#text.focus,
+#amount:focus {
+    width: 110%;
+    transition: 0.5s;
+    border-bottom: 2px solid rgb(190, 173, 151);
+    border-right: 2px solid rgb(190, 173, 151);
+}
+ul {
+    list-style: none;
+    display: inline;
+}
+ul li {
+    font-weight: bolder;
+    font-size: 21px;
+}
+/* .fa {
+    color: rgb(190, 173, 151);
+}
+.fa:hover {
+    transform: rotate(20deg);
+} */
+#error_msg {
+    color: rgb(131, 32, 32);
+    background-color: rgb(214, 216, 180);
+    font-weight: bolder;
+    padding: 0 10px;
+    border-radius: 1rem;
+}
+.list {
+    color: rgb(190, 173, 151);
+}
+.minus.hover,
+.plus.hover {
+    background-color: rgb(190, 173, 151);
+    cursor: pointer;
+}
